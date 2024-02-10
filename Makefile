@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-I include -Wall
+CFLAGS=-I include -Wall -g
 DEPS = include/common.h include/network.h
 OBJ = src/server.o src/client.o src/network.o
 
@@ -17,4 +17,4 @@ client: src/client.o src/network.o
 	$(CC) -o bin/client $^ $(CFLAGS)
 
 clean:
-	rm -f src/*.o bin/server bin/client
+	rm -f src/*.o $(OUTPUT_DIR)/server $(OUTPUT_DIR)/*.dSYM
