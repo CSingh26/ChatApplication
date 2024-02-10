@@ -1,0 +1,52 @@
+# macOS-specific
+.DS_Store
+._*
+Icon?
+
+# Object files
+*.o
+
+# Binaries
+/bin/
+
+# Executable files
+*.exe
+*.out
+*.bin
+
+# Build directories
+/build/
+/obj/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Dependency files
+*.d
+
+# Editor and IDE specific files
+*.swp
+*~
+.*.swp
+.*.swo
+.vscode/
+*.code-workspace
+*.sublime*
+.project
+.cproject
+.settings/
+*.clion*
+*.idea/
+
+# Log files
+*.log
+
+# Archives and compressed files
+*.tar
+*.gz
+*.zip
+*.rar
+*.tar.gz
